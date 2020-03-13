@@ -1,0 +1,259 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.vidcontent {
+    top: 110px;}
+.vidcontent h1 {
+    font-size: 27px;
+    font-weight:400;
+    letter-spacing:0; 
+}
+.nav {
+       padding: 1px 4px;
+}
+.nav2 ul li {
+    font-size: 14px;}
+.header {
+    height: 35vh;
+    padding-top: 30px;
+}
+.nav-icon {
+    top: 13px;
+}
+.corner-circle {
+    width: 87px;
+    height: 95px;
+}
+.cus-texts {
+    margin-top: -47px;
+    margin-bottom: -7px;
+}
+#work h3 {
+    font-size: 25px;
+}
+.cus-textf {
+    font-size: 34px;
+    margin-top: -118px;
+    margin-bottom: -79px;
+}
+.cus-text {
+    font-size: 30px;
+    margin-top: -96px;
+    margin-bottom: -23px;
+}
+.inner-container article {
+     width: 203px;
+    height: 187px;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 0px;}
+
+ .inner-container article p {
+    font-size: 11px;
+    line-height: 15px;
+    opacity: 1.3;
+}
+.number {
+    margin-top: -8%;
+    font-size: 34px;
+    margin-bottom: -7%;
+}
+.big-para {
+    font-size: 15px;
+}
+
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.nav {
+    padding: 6px 11px;
+}
+.vidcontent {
+    top: 149px;
+    padding: 0px;
+}
+.vidcontent h1 {
+    font-size: 3em;}
+.vidcontent p {
+    font-size: 14px;
+}
+.cus-texts {
+    margin-top: -111px;
+}
+#work h3 {
+    font-size: 32px;}
+section {
+padding: 42px 0;
+}
+.cus-text {
+    margin-top: -72px;
+}
+.big-para {
+    font-size: 13px;
+}
+.number {
+    margin-top: 3%;
+    font-size: 63px;
+    margin-bottom: 4%;
+}
+.material-card .mc-footer a {
+    width: 49px;}
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.material-card.mc-active h2 {
+    top: 0;
+    padding: -3px 10px 20px 80px;
+}
+.material-card h2 {
+    padding: 46px 0px;
+    font-size: 15px;
+    margin-left: 11px;
+}
+.material-card.mc-active .mc-btn-action {
+    top: 93px;
+}
+.material-card h2 strong {
+    font-size: 11px;
+}
+.material-card .mc-footer a {
+    width: 43px;
+    height: 46px;
+    margin-left: 4px;
+    margin-bottom: 14px;
+}
+
+
+
+	.nav ul li a {
+
+    font-size: 16px;
+    padding: 3px 0;
+    margin: 0 12px;
+}
+.vidcontent h1 {
+    margin-top: -45px;
+}
+.number {
+    font-size: 48px;}
+.big-para {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.cus-texts {
+    margin-top: -89px;
+    margin-bottom: -157px;
+}
+.cus-textf {
+    margin-top: -61px;
+    margin-bottom: -17px;
+}
+.cus-text {
+    font-size: 40px;
+    margin-top: -13px;
+}
+.nav-icon {
+       top: 11px;
+}
+.nav {
+    justify-content: center;
+    padding: 7px 10px;
+    top: 4px;
+ }
+
+.header {
+    position: relative;
+    /* overflow: hidden; */
+    overflow: inherit;
+        height: 100vh;
+    padding-top: 20px;
+}
+.vidcontent h1 {
+    font-size: 4em;}
+
+#vidBtn {
+    padding: 10px 35px;}
+.full-img {
+        margin-top: 205px;
+}
+section {
+     padding: 0px 0; 
+}
+.card-text {
+    font-size: 14px;
+}
+#footer {
+    margin-top: 46px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.nav ul li a {
+
+    font-size: 16px;
+    padding: 3px 0;
+        margin: 0px 8px;
+}
+.cus-texts {
+    margin-top: 56px;
+    margin-bottom: -151px;
+}
+
+.cus-textf {
+    margin-top: -61px;
+    margin-bottom: -17px;
+}
+.cus-text {
+    font-size: 40px;
+    margin-top: -13px;
+}
+.nav-icon {
+       top: 11px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 7px 10px;
+    position: absolute;
+    transform: all 0.3s;
+    background: white;
+    z-index: 9;
+    top: 4px;
+    width: 100%;
+}
+.header {
+    position: relative;
+    /* overflow: hidden; */
+    overflow: inherit;
+    height: 100vh;
+    padding-top: 20px;
+}
+.vidcontent h1 {
+    font-size: 4em;}
+
+#vidBtn {
+    padding: 10px 35px;}
+.full-img {
+        margin-top: 205px;
+}
+section {
+     padding: 0px 0; 
+}
+.card-text {
+    font-size: 14px;
+}
+#footer {
+    margin-top: 46px;
+}
+
+}
+
+@media (min-width: 1200px) { ... }
