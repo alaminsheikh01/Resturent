@@ -230,7 +230,7 @@ a:hover{
 	transform: rotate(-45deg);
 }
 .nav.sticky{
-	width: 100%;
+	width: 102%;
 	position: fixed;
 	background-color: white;
 	box-shadow: 0 10px 10px -10px rgba(0,0,0,0.35);
